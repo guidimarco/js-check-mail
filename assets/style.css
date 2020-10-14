@@ -1,118 +1,29 @@
-/* ||||| RESET E NORMALIZZAZIONE ||||| */
-/* <editor-fold */
-
-/* </editor-fold> */
-/* \\\\\ RESET E NORMALIZZAZIONE ///// */
-
-/* ||||| ALL DOC CLASSES ||||| */
-/* <editor-fold */
-
-/* </editor-fold> */
-/* \\\\\ ALL DOC CLASSES ///// */
-
-/* ||||| SYMBOLS ||||| */
-/* <editor-fold */
-
-/* </editor-fold> */
-/* \\\\\ SYMBOLS ///// */
-
-/* ||||| LINKS ||||| */
-/* <editor-fold */
-
-/* </editor-fold> */
-/* \\\\\ LINKS ///// */
-
-/* ||||| QUOTE ||||| */
-/* <editor-fold */
-
-/* </editor-fold> */
-/* \\\\\ END QUOTE ///// */
-
-/* ||||| BUTTONS ||||| */
-/* <editor-fold */
-
-/* </editor-fold> */
-/* \\\\\ BUTTONS ///// */
-
-
 /* ---------------- */
 /* ---------------- */
 /* ----- HTML ----- */
 /* ---------------- */
 /* ---------------- */
-
-/* ||||| HEADER ||||| */
-/* <editor-fold */
-
-/* ***** HEADER-DIV ***** */
-/* #region */
-
-/* #endregion */
-/* ***** HEADER-DIV ***** */
-
-/* </editor-fold> */
-/* \\\\\ END HEADER ///// */
-
-/* ----------------------- */
-/* ----------------------- */
-/* ----- MEDIA QUERY ----- */
-/* ----------------------- */
-/* ----------------------- */
-
-/* XS */
-@media screen and (min-width: 576px) {
-    /* ||||| HEADER ||||| */
-    /* <editor-fold */
-
-    /* ***** HEADER-DIV ***** */
-    /* #region */
-
-    /* #endregion */
-    /* ***** HEADER-DIV ***** */
-
-    /* </editor-fold> */
-    /* \\\\\ END HEADER ///// */
+body {
+    font-family: sans-serif;
 }
-/* SM */
-@media screen and (min-width: 768px) {
-    /* ||||| HEADER ||||| */
-    /* <editor-fold */
 
-    /* ***** HEADER-DIV ***** */
-    /* #region */
-
-    /* #endregion */
-    /* ***** HEADER-DIV ***** */
-
-    /* </editor-fold> */
-    /* \\\\\ END HEADER ///// */
+#wrapper {
+    height: 100vh;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* MD */
-@media screen and (min-width: 992px) {
-    /* ||||| HEADER ||||| */
-    /* <editor-fold */
 
-    /* ***** HEADER-DIV ***** */
-    /* #region */
-
-    /* #endregion */
-    /* ***** HEADER-DIV ***** */
-
-    /* </editor-fold> */
-    /* \\\\\ END HEADER ///// */
+.log-in-card {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(80, 0, 0, 0.8);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
 }
-/* LG */
-@media screen and (min-width: 1200px) {
-    /* ||||| HEADER ||||| */
-    /* <editor-fold */
-
-    /* ***** HEADER-DIV ***** */
-    /* #region */
-
-    /* #endregion */
-    /* ***** HEADER-DIV ***** */
-
-    /* </editor-fold> */
-    /* \\\\\ END HEADER ///// */
-}
-/* XL */

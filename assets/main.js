@@ -7,7 +7,7 @@ console.log(mailList);
 console.log(logInMail);
 
 // VERIFICA PRESENZA NELLA MAIL LIST
-// Variabile di controllo: di default 0 --> diventa 1 se la mail è nella lista
+// Variabile di controllo: di default 0 --> diventa > 0 se la mail è nella lista
 var control = 0;
 
 for (var i = 0; i < mailList.length; i++) {
